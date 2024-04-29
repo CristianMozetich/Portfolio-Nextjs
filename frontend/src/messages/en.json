@@ -1,0 +1,26 @@
+{
+  "title": "Hello, my name is Cristian",
+  "soy": "I am",
+  "description": "Here you can find all the relevant links and a selection of my latest projects",
+  "mark": "Full Stack Developer.",
+  "ingles": "ENGLISH",
+  "español": "SPANISH",
+  "italiano": "ITALIAN",
+  "proyects": "PROJECTS",
+  "mode": "MODE",
+  "lenguaje": "LANGUAGE",
+  "proyectos": {
+    "reciclame": {
+      "title": "RECICLAME",
+      "description": "I developed the interface of an application that simplifies the search for information about educational institutions."
+    },
+    "educar": {
+      "title": "EDUCAR",
+      "description": "I participated in the development of an application interface that simplifies the search for information about educational institutions."
+    },
+    "music_store": {
+      "title": "HOUSE OF MUSIC",
+      "description": "E-commerce store for musical instruments"
+    }
+  }
+}

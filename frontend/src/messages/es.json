@@ -1,0 +1,32 @@
+{
+  "title": "Hola, me llamo Cristian",
+  "soy": "Soy",
+  "description": "Aquí puedes encontrar todos los enlaces relevantes y una selección de mis últimos proyectos",
+  "mark": "desarrollador Full Stack.",
+  "ingles": "INGLÉS",
+  "español": "ESPAÑOL",
+  "italiano": "ITALIANO",
+  "proyects": "PROYECTOS",
+  "mode": "MODO",
+  "lenguaje": "IDIOMA",
+  "proyectos": {
+    "reciclame": {
+      "title": "RECICLAME",
+      "description": "Realicé el desarrollo de la interfaz de una aplicación que busca conectar personas con la intención de intercambiar materiales reciclables.",
+      "tech": "Next.js - React.js - Tailwind - Vercel",
+      "repo": "https://github.com/No-Country/s13-16-t-java-next"
+    },
+    "educar": {
+      "title": "EDUCAR",
+      "description": "Realicé el desarrollo de la interfaz de una aplicación que simplifica la búsqueda de información sobre instituciones educativas.",
+      "tech": "Next.js - NextUI - Tailwind - Vercel",
+      "repo": "https://github.com/No-Country/c15-40-t-java-react"
+    },
+    "music_store": {
+      "title": "HOUSE OF MUSIC",
+      "description": "Tienda e-commerce de instrumentos musicales",
+      "tech": "Html - Css - JavaScript - Bootstrap",
+      "repo": "https://github.com/CristianMozetich/House-Of-Music"
+    }
+  }
+}

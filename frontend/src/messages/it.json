@@ -1,0 +1,27 @@
+{
+    "title": "Ciao, mi chiamo Cristian",
+    "soy": "Sono",
+    "description": "Qui puoi trovare tutti i link rilevanti e una selezione dei miei ultimi progetti",
+    "mark": "sviluppatore Full Stack.",
+    "ingles": "INGLESE",
+    "español": "SPAGNOLO",
+    "italiano": "ITALIANO",
+    "proyects": "PROGETTI",
+    "mode": "TEMA",
+    "lenguaje": "LINGUA",
+    "proyectos": {
+      "reciclame": {
+        "title": "RECICLAME",
+        "description": "Ho sviluppato l'interfaccia di un'applicazione che mira a connettere le persone con l'intenzione di scambiare materiali riciclabili."
+      },
+      "educar": {
+        "title": "EDUCAR",
+        "description": "Ho sviluppato l'interfaccia di un'applicazione che semplifica la ricerca di informazioni sulle istituzioni educative."
+      },
+      "music_store": {
+        "title": "HOUSE OF MUSIC",
+        "description": "Negozio online di strumenti musicali"
+      }
+    }
+  }
+  
