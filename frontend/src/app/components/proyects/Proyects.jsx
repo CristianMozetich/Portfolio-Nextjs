@@ -55,7 +55,7 @@ const Proyects = () => {
             {/* Descripción y título ocupando la otra mitad */}
             <div className="flex flex-col pl-4 max-w-96 justify-center dark:bg-slate-800 border rounded-md dark:border-slate-900 bg-white z-10 shadow-md">
               <a
-                className="flex gap-2 p-2 hover:text-emerald-600 dark:hover:text-sky-600 transition-transform duration-300 transform hover:-translate-y-1 hover:-translate-x-1"
+                className="flex gap-2 p-2 hover:text-emerald-600 dark:hover:text-sky-600 transition-transform duration-300 transform  hover:translate-x-1"
                 href={data.link}
                 target="_blank"
               >
