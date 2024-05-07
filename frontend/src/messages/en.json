@@ -10,6 +10,8 @@
   "mode": "MODE",
   "lenguaje": "LANGUAGE",
   "curriculum": "EN",
+  "footer": "I am currently looking for new opportunities and job offers.",
+  "footer2": "This portfolio was created with Next.js and Tailwind by",
   "proyectos": {
     "reciclame": {
       "title": "RECICLAME",

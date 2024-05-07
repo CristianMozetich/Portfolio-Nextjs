@@ -10,6 +10,8 @@
     "mode": "TEMA",
     "lenguaje": "LINGUA",
     "curriculum": "IT",
+    "footer": "Attualmente stiamo cercando nuove opportunità di lavoro e proposte di stage.",
+    "footer2": "Questo portfolio e stato creato con Next.js e Tailwind per",
     "proyectos": {
       "reciclame": {
         "title": "RECICLAME",
