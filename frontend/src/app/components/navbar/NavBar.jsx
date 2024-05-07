@@ -11,9 +11,9 @@ import { useTranslations } from "next-intl";
 const NavBar = () => {
   const { menuHamburguesa, handleMenuHamburguesa, theme, setTheme } =
     useContexto();
-  const [clickMode, setClickMode] = useState(false);
-  const [clickLenguage, setClickLanguage] = useState(false);
-  const [clickCurriculums, setClickCurriculums] = useState(false);
+  const [clickMode, setClickMode] = useState(true);
+  const [clickLenguage, setClickLanguage] = useState(true);
+  const [clickCurriculums, setClickCurriculums] = useState(true);
 
   const t = useTranslations();
 

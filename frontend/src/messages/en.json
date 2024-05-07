@@ -9,6 +9,7 @@
   "proyects": "PROJECTS",
   "mode": "MODE",
   "lenguaje": "LANGUAGE",
+  "curriculum": "EN",
   "proyectos": {
     "reciclame": {
       "title": "RECICLAME",
