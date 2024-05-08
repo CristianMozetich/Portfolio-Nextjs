@@ -1,7 +1,6 @@
 import React from "react";
 import Skills from "../skills/Skills";
 import Contact from "../contact/Contact";
-import Link from "next/link";
 import { useTranslations } from "next-intl";
 
 const Footer = () => {
