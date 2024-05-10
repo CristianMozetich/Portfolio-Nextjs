@@ -25,6 +25,14 @@ const Proyects = () => {
       repositorio: "https://github.com/No-Country/c15-40-t-java-react",
     },
     {
+      titulo: t("proyectos.simple_link.title"),
+      img: "/img/simple-link.png",
+      link: "https://simple-url-sable.vercel.app/",
+      descripcion: t("proyectos.simple_link.description"),
+      tecnologias: "Next.js - Node.js - Express - MongoDB - Tailwind - Vercel",
+      repositorio: "https://github.com/CristianMozetich/Url-Shortener",
+    },
+    {
       titulo: t("proyectos.music_store.title"),
       img: "/img/musica-min.png",
       link: "https://house-of-music.netlify.app/",

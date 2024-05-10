@@ -21,6 +21,10 @@
       "title": "EDUCAR",
       "description": "I participated in the development of an application interface that simplifies the search for information about educational institutions."
     },
+    "simple_link":{
+      "title": "Simple Link",
+      "description": "MVP for creating a short link and easily accessible for sharing in social networks."
+    },
     "music_store": {
       "title": "HOUSE OF MUSIC",
       "description": "E-commerce store for musical instruments"

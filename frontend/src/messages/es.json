@@ -25,6 +25,12 @@
       "tech": "Next.js - NextUI - Tailwind - Vercel",
       "repo": "https://github.com/No-Country/c15-40-t-java-react"
     },
+    "simple_link":{
+      "title": "Simple Link",
+      "description": "MVP para crear un enlace corto y de facil acceso para compartir en redes sociales.",
+      "tech": "Next.js - Node.js - Express - MongoDB - Tailwind - Vercel",
+      "repo": "https://github.com/CristianMozetich/Url-Shortener"
+    },
     "music_store": {
       "title": "HOUSE OF MUSIC",
       "description": "Tienda e-commerce de instrumentos musicales",
