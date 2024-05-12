@@ -1,10 +1,5 @@
 {
-    "builds": [
-      { "src": "frontend", "use": "@vercel/next" },
-      { "src": "public/**/*", "use": "@vercel/static" }
-    ],
-    "rewrites": [
-      { "source": "/:locale*/(.*)", "destination": "/frontend/src/app/$1" }
-    ]
-  }
-  
+  "rewrites": [
+    { "source": "/:locale*/(.*)", "destination": "/frontend/src/app/$1" }
+  ]
+}
