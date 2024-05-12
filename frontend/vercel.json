@@ -7,8 +7,7 @@
       }
     ],
     "routes": [
-      { "handle": "filesystem" },
-      { "src": "/([locale]+)/(.*)", "dest": "/[locale]/$2" },
+      { "src": "/frontend/src/app/([locale]+)/(.*)", "dest": "/[locale]/$2" },
       { "src": "/(.*)", "dest": "/" }
     ]
   }
