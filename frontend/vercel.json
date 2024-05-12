@@ -1,0 +1,15 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "frontend",
+        "use": "@vercel/next"
+      }
+    ],
+    "routes": [
+      { "src": "/frontend/src/app/([a-z]+)/(.*)", "dest": "/frontend/src/app/$1/$2" },
+      { "src": "/(.*)", "dest": "/frontend/$1" }
+    ]
+  }
+
+  
