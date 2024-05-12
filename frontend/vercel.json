@@ -1,14 +1,13 @@
 {
-    "version": 2,
-    "builds": [
-      {
-        "src": "/",
-        "use": "@vercel/next"
-      }
-    ],
-    "routes": [
-      { "src": "/frontend/src/app/([locale]+)/(.*)", "dest": "/[locale]/$2" },
-      { "src": "/(.*)", "dest": "/" }
-    ]
-  }
-  
+  "version": 2,
+  "builds": [
+    {
+      "src": "frontend",
+      "use": "@vercel/next"
+    }
+  ],
+  "routes": [
+    { "handle": "filesystem" },
+    { "src": "/(.*)", "dest": "/frontend/$1" }
+  ]
+}
