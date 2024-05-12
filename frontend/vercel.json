@@ -1,7 +1,7 @@
 {
     "version": 2,
     "builds": [
-      { "src": "frontend", "use": "@vercel/next" },
+      { "src": "frontend", "use": "@vercel/node" },
       { "src": "public/**/*", "use": "@vercel/static" }
     ],
     "routes": [
