@@ -4,11 +4,8 @@
       { "src": "frontend", "use": "@vercel/node" },
       { "src": "public/**/*", "use": "@vercel/static" }
     ],
-    "routes": [
-      { "handle": "filesystem" },
-      { "src": "/(.*)", "dest": "/frontend/src/app/$1" }
-    ],
     "rewrites": [
+      { "source": "/(.*)", "destination": "/frontend/src/app/$1" },
       { "source": "/:locale*/(.*)", "destination": "/frontend/src/app/$1" }
     ]
   }
