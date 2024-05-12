@@ -5,7 +5,7 @@
         "use": "@vercel/next"
       },
       {
-        "src": "/frontend/src/app/[locale]/layout.tsx",
+        "src": "/frontend/src/app/[locale]/**/*",
         "use": "@vercel/next"
       },
       {
