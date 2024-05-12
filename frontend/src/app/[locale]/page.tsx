@@ -1,6 +1,6 @@
 "use client";
-import HomePage from "./components/homepage/HomePage";
-import Proyects from "./components/proyects/Proyects";
+import HomePage from "../components/homepage/HomePage";
+import Proyects from "../components/proyects/Proyects";
 
 import { useTranslations } from "next-intl";
 
