@@ -3,7 +3,7 @@
     "builds": [
       {
         "src": "/frontend",
-        "use": "@vercel/node"
+        "use": "@vercel/next"
       },
       {
         "src": "/frontend/src/app/[locale]/layout.tsx",
