@@ -65,7 +65,7 @@ const HomePage = () => {
           </div>
         </div>
       </div>
-      <picture className="flex justify-center md:w-1/2">
+      <picture className="flex justify-center md:w-1/2 animate-fade-left">
         <Image
           src="/img/oso-min.jpg"
           alt="profile"
