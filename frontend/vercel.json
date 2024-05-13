@@ -1,5 +1,0 @@
-{
-  "rewrites": [
-    { "source": "/:locale*/(.*)", "destination": "/frontend/src/app/$1" }
-  ]
-}

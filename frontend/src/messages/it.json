@@ -22,7 +22,7 @@
         "description": "Ho sviluppato l'interfaccia di un'applicazione che semplifica la ricerca di informazioni sulle istituzioni educative."
       },
       "simple_link":{
-        "title": "Simple Link",
+        "title": "SIMPLE LINK",
         "description": "MVP per creare un link corto e facilmente accessibile per condividere in social network.",
         "repo": "https://github.com/CristianMozetich/Url-Shortener"
       },
