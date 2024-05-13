@@ -1,17 +1,14 @@
 import React from "react";
 import Image from "next/image";
-import GithubIcon from "../icons/github";
-import LinkedInIcon from "../icons/linkedin";
-import EmailIcon from "../icons/email";
-import FileIcon from "../icons/file";
+import GithubIcon from "../../icons/github";
+import LinkedInIcon from "../../icons/linkedin";
+import EmailIcon from "../../icons/email";
+import FileIcon from "../../icons/file";
 import { useTranslations } from "next-intl";
-
-
 
 const HomePage = () => {
   const t = useTranslations();
   const idioma = t("curriculum");
-
 
   const getCurriculumFileName = () => {
     console.log("curriculum:", idioma);

@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
-import Link from "../icons/link";
-import GithubIcon from "../icons/github";
+import Link from "../../icons/link";
+import GithubIcon from "../../icons/github";
 import { useTranslations } from "next-intl";
 
 const Proyects = () => {

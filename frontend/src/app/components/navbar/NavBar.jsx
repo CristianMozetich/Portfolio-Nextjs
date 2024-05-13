@@ -1,8 +1,8 @@
 "use client";
 import React from "react";
-import DarkLightIcon from "../icons/mode";
-import HamburgerIcon from "../icons/menu";
-import ExitIcon from "../icons/exit";
+import DarkLightIcon from "../../icons/mode";
+import HamburgerIcon from "../../icons/menu";
+import ExitIcon from "../../icons/exit";
 import { useContexto } from "../../../context/useContext";
 import { useState } from "react";
 import Link from "next/link";
@@ -45,7 +45,10 @@ const NavBar = () => {
         </button>
       </div>
       <div className="flex mt-4 mr-4 justify-end">
-        <button className="block md:hidden mr-6" onClick={handleMenuHamburguesa}>
+        <button
+          className="block md:hidden mr-6"
+          onClick={handleMenuHamburguesa}
+        >
           {menuHamburguesa ? <ExitIcon /> : <HamburgerIcon />}
         </button>
       </div>
@@ -60,10 +63,16 @@ const NavBar = () => {
             </button>
             {clickMode && (
               <div className="flex gap-2 flex-col items-end">
-                <button onClick={() => setTheme("dark")} className="text-s hover:-translate-x-1 transition-transform duration-300 transform">
+                <button
+                  onClick={() => setTheme("dark")}
+                  className="text-s hover:-translate-x-1 transition-transform duration-300 transform"
+                >
                   DARK
                 </button>
-                <button onClick={() => setTheme("light")} className="text-sm hover:-translate-x-1 transition-transform duration-300 transform">
+                <button
+                  onClick={() => setTheme("light")}
+                  className="text-sm hover:-translate-x-1 transition-transform duration-300 transform"
+                >
                   LIGHT
                 </button>
               </div>
@@ -76,13 +85,22 @@ const NavBar = () => {
             </button>
             {clickLenguage && (
               <div className="flex gap-2 flex-col items-end">
-                <Link className="text-sm hover:-translate-x-1 transition-transform duration-300 transform" href={"/en"}>
+                <Link
+                  className="text-sm hover:-translate-x-1 transition-transform duration-300 transform"
+                  href={"/en"}
+                >
                   {t("ingles")}
                 </Link>
-                <Link className="text-sm hover:-translate-x-1 transition-transform duration-300 transform" href={"/es"}>
+                <Link
+                  className="text-sm hover:-translate-x-1 transition-transform duration-300 transform"
+                  href={"/es"}
+                >
                   {t("español")}
                 </Link>
-                <Link className="text-sm hover:-translate-x-1 transition-transform duration-300 transform" href={"/it"}>
+                <Link
+                  className="text-sm hover:-translate-x-1 transition-transform duration-300 transform"
+                  href={"/it"}
+                >
                   {t("italiano")}
                 </Link>
               </div>
