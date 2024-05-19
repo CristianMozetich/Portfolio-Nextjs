@@ -14,7 +14,7 @@ const HomePage = () => {
     console.log("curriculum:", idioma);
     switch (idioma) {
       case "ES":
-        return "Cv_Mozetich_Cristian.pdf";
+        return "Cv_Mozetich_Cristian_ES.pdf";
       case "IT":
         return "Cv_Mozetich_Cristian_IT.pdf";
       default:
