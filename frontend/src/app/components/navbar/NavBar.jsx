@@ -30,7 +30,7 @@ const NavBar = () => {
   };
 
   return (
-    <header className="w-screen h-12 bg-white  fixed z-50 dark:bg-slate-800 dark:text-white shadow-md">
+    <header className="w-screen h-12 bg-white fixed z-50 dark:bg-slate-800 dark:text-white shadow-md">
       <div className="flex justify-center">
         <button
           onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
