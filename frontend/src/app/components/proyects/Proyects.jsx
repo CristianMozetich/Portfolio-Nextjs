@@ -9,6 +9,14 @@ const Proyects = () => {
 
   const proyectos = [
     {
+      titulo: t("proyectos.180funcional.title"),
+      img: "/img/180funcional-min.png",
+      link: "https://180funcional.vercel.app/",
+      descripcion: t("proyectos.180funcional.description"),
+      tecnologias:
+        "Nextjs - TypeScript - Tailwind - Vercel - MongoDB - Express - Node.js - NextUI",
+    },
+    {
       titulo: t("proyectos.reciclame.title"),
       img: "/img/reciclame-min.png",
       link: "https://s13-16-t-java-next-frontend.vercel.app/",

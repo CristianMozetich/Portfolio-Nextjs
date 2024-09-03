@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inconsolata } from "next/font/google";
+import { Montserrat } from "next/font/google";
 import { NextIntlClientProvider, useMessages } from "next-intl";
 import NavBar from "../components/navbar/NavBar";
 import AsideTranslations from "../components/aside/AsideTranslations";
@@ -7,7 +7,7 @@ import Providers from "../../providers/Providers";
 import Footer from "../components/footer/Footer";
 import "./globals.css";
 
-const inter = Inconsolata({ subsets: ["latin"] });
+const inter = Montserrat({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Portfolio | Cristian Mozetich",

@@ -13,6 +13,12 @@
   "footer": "Actualmente estoy en busqueda de nuevas oportunidades y propuestas de trabajo.",
   "footer2": "Este portfolio fue creado con Next.js y Tailwind por",
   "proyectos": {
+    "180funcional": {
+      "title": "180 FUNCIONAL",
+      "description": "Proyecto orientado a la digitalización de un gimnasio, su función es proyectar los planes de entrenamiento y planificar las sesiones de ejercicios en base a los objetivos de la clase.",
+      "tech": "Nextjs - TypeScript - Tailwind - Vercel - MongoDB - Express - Node.js - NextUI",
+      "repo": "https://github.com/CristianMozetich/Gym"   
+    },
     "reciclame": {
       "title": "RECICLAME",
       "description": "Realicé el desarrollo de la interfaz de una aplicación que busca conectar personas con la intención de intercambiar materiales reciclables.",

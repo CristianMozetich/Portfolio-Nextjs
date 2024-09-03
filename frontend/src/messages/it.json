@@ -1,35 +1,41 @@
 {
-    "title": "Ciao, mi chiamo Cristian",
-    "soy": "Sono",
-    "description": "Qui puoi trovare tutti i link rilevanti e una selezione dei miei ultimi progetti",
-    "mark": "sviluppatore Full Stack.",
-    "ingles": "INGLESE",
-    "español": "SPAGNOLO",
-    "italiano": "ITALIANO",
-    "proyects": "PROGETTI",
-    "mode": "TEMA",
-    "lenguaje": "LINGUA",
-    "curriculum": "IT",
-    "footer": "Attualmente stiamo cercando nuove opportunità di lavoro e proposte di stage.",
-    "footer2": "Questo portfolio e stato creato con Next.js e Tailwind per",
-    "proyectos": {
-      "reciclame": {
-        "title": "RECICLAME",
-        "description": "Ho sviluppato l'interfaccia di un'applicazione che mira a connettere le persone con l'intenzione di scambiare materiali riciclabili."
-      },
-      "educar": {
-        "title": "EDUCAR",
-        "description": "Ho sviluppato l'interfaccia di un'applicazione che semplifica la ricerca di informazioni sulle istituzioni educative."
-      },
-      "simple_link":{
-        "title": "SIMPLE LINK",
-        "description": "MVP per creare un link corto e facilmente accessibile per condividere in social network.",
-        "repo": "https://github.com/CristianMozetich/Url-Shortener"
-      },
-      "music_store": {
-        "title": "HOUSE OF MUSIC",
-        "description": "Negozio online di strumenti musicali"
-      }
+  "title": "Ciao, mi chiamo Cristian",
+  "soy": "Sono",
+  "description": "Qui puoi trovare tutti i link rilevanti e una selezione dei miei ultimi progetti",
+  "mark": "sviluppatore Full Stack.",
+  "ingles": "INGLESE",
+  "español": "SPAGNOLO",
+  "italiano": "ITALIANO",
+  "proyects": "PROGETTI",
+  "mode": "TEMA",
+  "lenguaje": "LINGUA",
+  "curriculum": "IT",
+  "footer": "Attualmente stiamo cercando nuove opportunità di lavoro e proposte di stage.",
+  "footer2": "Questo portfolio e stato creato con Next.js e Tailwind per",
+  "proyectos": {
+    "180funcional": {
+      "title": "180 FUNZIONALE",
+      "description": "Progetto orientato alla digitalizzazione di una palestra, la funzione è proiettare i piani di allenamento e pianificare le sessioni di esercizi in base agli obiettivi della classe.",
+      "tech": "Nextjs - TypeScript - Tailwind - Vercel - MongoDB - Express - Node.js - NextUI",
+      "repo": "https://github.com/CristianMozetich/Gym"
+    },
+
+    "reciclame": {
+      "title": "RECICLAME",
+      "description": "Ho sviluppato l'interfaccia di un'applicazione che mira a connettere le persone con l'intenzione di scambiare materiali riciclabili."
+    },
+    "educar": {
+      "title": "EDUCAR",
+      "description": "Ho sviluppato l'interfaccia di un'applicazione che semplifica la ricerca di informazioni sulle istituzioni educative."
+    },
+    "simple_link": {
+      "title": "SIMPLE LINK",
+      "description": "MVP per creare un link corto e facilmente accessibile per condividere in social network.",
+      "repo": "https://github.com/CristianMozetich/Url-Shortener"
+    },
+    "music_store": {
+      "title": "HOUSE OF MUSIC",
+      "description": "Negozio online di strumenti musicali"
     }
   }
-  
+}
