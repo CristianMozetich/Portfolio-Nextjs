@@ -8,7 +8,7 @@ import { ContextProvider } from "@/context/useContext";
 
 export default function Providers({ children }) {
   return (
-    <ThemeProvider attribute="class">
+    <ThemeProvider attribute="class" defaultTheme="dark">
       <ContextProvider>{children}</ContextProvider>
     </ThemeProvider>
   );
