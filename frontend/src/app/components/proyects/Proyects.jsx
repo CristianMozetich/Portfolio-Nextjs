@@ -15,6 +15,7 @@ const Proyects = () => {
       descripcion: t("proyectos.180funcional.description"),
       tecnologias:
         "Nextjs - TypeScript - Tailwind - Vercel - MongoDB - Express - Node.js - NextUI",
+      repositorio: "https://github.com/CristianMozetich/Gym",
     },
     {
       titulo: t("proyectos.reciclame.title"),
