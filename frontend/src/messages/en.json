@@ -15,7 +15,7 @@
   "proyectos": {
     "180funcional": {
       "title": "180 FUNCTIONAL",
-      "description": "A project aimed at the digitalization of a gym, its purpose is to project training plans and plan exercise sessions based on class objectives.",
+      "description": "This project focuses on the digitalization of training plans and the scheduling of exercise sessions. Its goal is to transform the process of creating and managing workouts through the use of digital technologies, thereby optimizing the efficiency and personalization of training programs.",
       "tech": "Nextjs - TypeScript - Tailwind - Vercel - MongoDB - Express - Node.js - NextUI",
       "repo": "https://github.com/CristianMozetich/Gym"
     },

@@ -15,7 +15,7 @@
   "proyectos": {
     "180funcional": {
       "title": "180 FUNZIONALE",
-      "description": "Progetto orientato alla digitalizzazione di una palestra, la funzione è proiettare i piani di allenamento e pianificare le sessioni di esercizi in base agli obiettivi della classe.",
+      "description": "Questo progetto è focalizzato sulla digitalizzazione dei piani di allenamento e sulla pianificazione delle sessioni di esercizio. L'obiettivo è trasformare il processo di creazione e gestione degli allenamenti attraverso l'uso delle tecnologie digitali, ottimizzando così l'efficienza e la personalizzazione dei programmi di allenamento.",
       "tech": "Nextjs - TypeScript - Tailwind - Vercel - MongoDB - Express - Node.js - NextUI",
       "repo": "https://github.com/CristianMozetich/Gym"
     },
