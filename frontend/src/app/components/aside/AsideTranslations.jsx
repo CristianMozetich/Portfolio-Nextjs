@@ -7,7 +7,7 @@ const AsideTranslations = () => {
 
   return (
     <>
-      <div className="flex flex-col m-2 items-start gap-4">
+      <div className="flex flex-col m-4 items-start gap-4">
         <Link href="en" className="tracking-widest text-sm hover:scale-105 hover:text-emerald-600 dark:hover:text-sky-600 hover:translate-x-1 transition-transform duration-300 font-semibold">
           {t("ingles")}
         </Link>
@@ -18,7 +18,7 @@ const AsideTranslations = () => {
           {t("italiano")}
         </Link>
       </div>
-      <div className="border-l ml-8 border-solid border-slate-950 h-64 dark:border-sky-500"></div>
+      <div className="border-l ml-12 border-solid border-slate-950 h-64 dark:border-sky-500"></div>
     </>
   );
 };
