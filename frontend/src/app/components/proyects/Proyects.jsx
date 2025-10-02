@@ -18,22 +18,6 @@ const Proyects = () => {
       repositorio: "https://github.com/CristianMozetich/Gym",
     },
     {
-      titulo: t("proyectos.reciclame.title"),
-      img: "/img/reciclame-min.png",
-      link: "https://s13-16-t-java-next-frontend.vercel.app/",
-      descripcion: t("proyectos.reciclame.description"),
-      tecnologias: "Next.js - React.js - Tailwind - Vercel",
-      repositorio: "https://github.com/No-Country/s13-16-t-java-next",
-    },
-    {
-      titulo: t("proyectos.educar.title"),
-      img: "/img/Educar-min.png",
-      link: "https://educ-ar-frontend.vercel.app/",
-      descripcion: t("proyectos.educar.description"),
-      tecnologias: "Next.js - NextUI - Tailwind - Vercel",
-      repositorio: "https://github.com/No-Country/c15-40-t-java-react",
-    },
-    {
       titulo: t("proyectos.simple_link.title"),
       img: "/img/simple-link.png",
       link: "https://simple-url-sable.vercel.app/",
